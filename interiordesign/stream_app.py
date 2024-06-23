@@ -7,7 +7,7 @@ from openai import OpenAI
 load_dotenv()
 
 #openai_api_key = os.getenv("OPENAI_API_KEY")
-openai_api_key = st.secrets["OPENAI_API_KEY"]
+openai_api_key = st.secrets["default"]["OPENAI_API_KEY"]
 
 
 #Define agent properties
